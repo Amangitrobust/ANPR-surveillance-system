@@ -1,0 +1,21 @@
+.navbar-link{
+    color: white;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 0.31rem;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navbar-link:hover{
+    color: orange;
+}
+
+.active-link{
+    background-color: orange;
+}
+.active-link:hover{
+    color: black;
+}
+

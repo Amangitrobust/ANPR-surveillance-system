@@ -1,0 +1,13 @@
+<!-- USING FLASK TEMPLATE INHERITENCE -->
+{% extends "base.html" %}
+{% block content %}
+    {% if current_endpoint == 'home' %}
+        {% include "home.html" %}
+    {% elif current_endpoint == 'video' %}
+        {% include "video_detection.html" %}
+    {% elif current_endpoint == 'search_video' %}
+        {% include "search_video_detection.html" %}
+    {% elif current_endpoint == 'external' %}
+        {% include "external_detection.html" %}
+    {% endif %}
+{% endblock %}

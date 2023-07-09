@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>   
+    <head>
+    </head>
+    <body>
+        <div class="container mt-1" style="height: 81vh;">
+            <section>
+                <form method="POST" enctype="multipart/form-data" style="display: flex; justify-content: center;">
+                    {{ form.hidden_tag() }}
+                    {{ form.video.label }}
+                    {{ form.video }}
+                    {{ form.submit }}
+                </form>
+            </section>
+            <section>
+                <img src="{{ url_for('video_frames') }}" alt="video Detection"
+                    style="border: 2px solid black; display: inline-block; width: 100%; height: 90%;">
+            </section>
+        </div>
+    </body> 
+</html>

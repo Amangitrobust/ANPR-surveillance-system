@@ -1,0 +1,8 @@
+Flask==2.2.3
+Flask_WTF==1.1.1
+mysql-connector-python==8.0.33
+opencv_python==4.7.0.68
+pytesseract==0.3.10
+ultralytics==8.0.38
+Werkzeug==2.2.2
+WTForms==3.0.1
